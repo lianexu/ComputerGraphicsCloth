@@ -37,7 +37,10 @@ class PendulumSystem : public ParticleSystemBase {
   public:
     PendulumSystem(){};
 
-    void AddSphere(int sphere1, int sphere2, float mass, float spring_length1k, float spring_constant1k, float spring_lengthk2, float spring_constantk2){
+
+
+    /*    
+    void AddSphere(int sphere1, int sphere2, float mass, float spring_length1k, float spring_constant1k, float spring_lengthk2, float spring_constantk2){ // for PendulumNode
         // int sphere 1/int sphere 2 = index of sphere1/2. If = -1, ignore
         // spring length and spring constant should be 0 to connect to the sphere index of -1
         if (sphere_masses_.size() == 0){ // we're adding the first mass [[0]]
@@ -67,7 +70,7 @@ class PendulumSystem : public ParticleSystemBase {
                 }
             }
             constants_row_init.push_back(0);
-            lengths_row_init.push_back(0);            
+            lengths_row_init.push_back(0);
 
             spring_constants_.push_back(constants_row_init);
             spring_lengths_.push_back(lengths_row_init);            
@@ -76,6 +79,90 @@ class PendulumSystem : public ParticleSystemBase {
         sphere_masses_.push_back(mass);
         fixed_spheres_.push_back(0);
     }
+    */
+
+   void AddSphere(float sphere_mass){
+        if (sphere_masses_.size() == 0){ // we're adding the first mass [[0]]
+            std::vector<float> row_init;
+            row_init.push_back(0);
+            spring_constants_.push_back(row_init);
+            spring_lengths_.push_back(row_init);
+        }else{
+            std::vector<float> constants_row_init;
+            std::vector<float> lengths_row_init;
+            for (int i = 0; i < sphere_masses_.size(); i++){
+                spring_constants_[i].push_back(0);
+                spring_lengths_[i].push_back(0);
+                constants_row_init.push_back(0);
+                lengths_row_init.push_back(0);
+            }
+            constants_row_init.push_back(0);
+            lengths_row_init.push_back(0);
+
+            spring_constants_.push_back(constants_row_init);
+            spring_lengths_.push_back(lengths_row_init);            
+        }
+        sphere_masses_.push_back(sphere_mass);
+        fixed_spheres_.push_back(0);
+   }
+
+
+    void AddSpring(int sphere1, int sphere2, float spring_length, float spring_constant){ //connecting sphere1 and sphere2
+        spring_constants_[sphere1][sphere2] = spring_constant;
+        spring_constants_[sphere2][sphere1] = spring_constant;
+
+        spring_lengths_[sphere1][sphere2] = spring_length;
+        spring_lengths_[sphere2][sphere1] = spring_length;
+    }
+    
+    
+/*
+    void AddSphere(std::vector<int> spheres, float mass, std::vector<float> spring_lengths, std::vector<float> spring_constants){ // for cloth node
+        if (sphere_masses_.size() == 0){ // we're adding the first mass [[0]]
+            std::vector<float> row_init;
+            row_init.push_back(0);
+            spring_constants_.push_back(row_init);
+            spring_lengths_.push_back(row_init);
+
+        }else{
+            std::vector<float> constants_row_init;
+            std::vector<float> lengths_row_init;
+
+            for (int i = 0; i < sphere_masses_.size(); i++){
+                bool spring_not_added_yet = true;
+                for (int j = 0; j < spheres.size(); j++){
+                    int sphere_ix = spheres[j];
+                    if (i == sphere_ix){
+                        spring_constants_[i].push_back(spring_constants[j]);
+                        spring_lengths_[i].push_back(spring_lengths[j]);
+
+                        constants_row_init.push_back(spring_constants[j]);
+                        lengths_row_init.push_back(spring_lengths[j]);    
+                        spring_not_added_yet = false;
+
+                if (spring_not_added_yet == true){
+                    spring_constants_[i].push_back(0);
+                    spring_lengths_[i].push_back(0);
+                    constants_row_init.push_back(0);
+                    lengths_row_init.push_back(0);
+                }
+                }
+            }
+
+            constants_row_init.push_back(0);
+            lengths_row_init.push_back(0);
+
+            spring_constants_.push_back(constants_row_init);
+            spring_lengths_.push_back(lengths_row_init);            
+        }
+    }
+        sphere_masses_.push_back(mass);
+        fixed_spheres_.push_back(0);
+    }
+    
+
+
+*/
 
     void FixSphere(int sphere_index){ // spheres where fixed_spheres_[i] = 1 are fixed
         fixed_spheres_[sphere_index] = 1;
