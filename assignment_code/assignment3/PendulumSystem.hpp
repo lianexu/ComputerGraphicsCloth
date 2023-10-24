@@ -35,13 +35,7 @@
 namespace GLOO {
 class PendulumSystem : public ParticleSystemBase {
   public:
-    // PendulumSystem(std::vector<std::vector<float>> spring_constants, std::vector<std::vector<float>> spring_lengths, std::vector<float> sphere_masses, float drag_constant){
-        PendulumSystem(){
-        // spring_constants_ = spring_constants;
-        // spring_lengths_ = spring_lengths;
-        // sphere_masses_ = sphere_masses;
-        // drag_constant_ = drag_constant;
-    };
+    PendulumSystem(){};
 
     void AddSphere(int sphere1, int sphere2, float mass, float spring_length1k, float spring_constant1k, float spring_lengthk2, float spring_constantk2){
         // int sphere 1/int sphere 2 = index of sphere1/2. If = -1, ignore
@@ -88,13 +82,13 @@ class PendulumSystem : public ParticleSystemBase {
     }
 
     ParticleState ComputeTimeDerivative(const ParticleState& state, float time) const{
-        std::cout << "time: " << time << std::endl;
+        // std::cout << "time: " << time << std::endl;
         ParticleState derivative;
 
         std::vector<glm::vec3> velocities = state.velocities;
         std::vector<glm::vec3> accelerations;
 
-        for(int i = 0; i < velocities.size(); i++){
+        for(int i = 0; i < velocities.size(); i++){ // set the velocities of fixed spheres to 0
             if (sphere_masses_[i] == 0 || fixed_spheres_[i] == 1){
                 glm::vec3 zero(0,0,0);
                 velocities[i] = zero;

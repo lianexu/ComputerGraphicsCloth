@@ -18,6 +18,7 @@
 #include "SimpleSystem.hpp"
 #include "PendulumNode.hpp"
 #include "PendulumSystem.hpp"
+#include "ClothNode.hpp"
 
 
 namespace GLOO {
@@ -59,8 +60,10 @@ void SimulationApp::SetupScene() {
 
   // auto simple_node = make_unique<SimpleNode<SimpleSystem, ParticleState>>(integration_step_, integrator_type_);
   // root.AddChild(std::move(simple_node));
-  auto pendulum_node = make_unique<PendulumNode<PendulumSystem, ParticleState>>(integration_step_, integrator_type_);
-  root.AddChild(std::move(pendulum_node));
+  // auto pendulum_node = make_unique<PendulumNode<PendulumSystem, ParticleState>>(integration_step_, integrator_type_);
+  // root.AddChild(std::move(pendulum_node));
+  auto cloth_node = make_unique<ClothNode<PendulumSystem, ParticleState>>(integration_step_, integrator_type_);
+  root.AddChild(std::move(cloth_node));
 
 }
 }  // namespace GLOO

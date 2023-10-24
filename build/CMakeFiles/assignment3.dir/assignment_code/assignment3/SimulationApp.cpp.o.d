@@ -904,4 +904,5 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/./gtc/ulp.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/ulp.inl \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/../ext/scalar_ulp.hpp \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/./gtc/vec1.hpp
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/./gtc/vec1.hpp \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ClothNode.hpp

@@ -89,30 +89,10 @@ public:
         sphere_nodes_.push_back(sphere_node3.get());
         AddChild(std::move(sphere_node3));
 
-        system_.FixSphere(3);
+        system_.FixSphere(0);
 
         state_.positions = positions_vec;
         state_.velocities = velocities_vec;
-
-        // for (int i=0; i < sphere_nodes_.size(); i++){
-        //     std::vector<float> spring_length_i;
-        //     std::vector<float> spring_constant_i;
-        //     for (int j=0; j < sphere_nodes_.size();j++){
-        //         spring_length_i.push_back(0.0);
-        //         spring_constant_i.push_back(0.0);
-        //     }
-        //     spring_lengths_.push_back(spring_length_i);
-        //     spring_constants_.push_back(spring_constant_i);
-        //     sphere_masses_.push_back(0.0);
-        // }
-
-        // sphere_masses_[1] = 0.005;
-        // spring_lengths_[1][0] = 0.5;
-        // spring_constants_[1][0] = 0.2;
-
-        // std::cout << "sphere mass 1 " << sphere_masses_[0] << std::endl;
-
-        // system_ = PendulumSystem(spring_constants_, spring_lengths_, sphere_masses_, drag_constant_);
 
 
         integration_step_ = integration_step;
@@ -145,7 +125,7 @@ private:
     std::vector<std::vector<float>> spring_constants_;
     std::vector<std::vector<float>> spring_lengths_;
      std::vector<float> sphere_masses_;
-     float drag_constant_ = 0.005;
+    //  float drag_constant_ = 0.005;
 
     double time_;
     std::unique_ptr<IntegratorBase<TSystem, TState>> integrator_;

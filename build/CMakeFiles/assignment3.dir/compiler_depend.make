@@ -439,6 +439,7 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: /Use
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdint.h \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ClothNode.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ForwardEulerIntegrator.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/IntegratorBase.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/IntegratorFactory.hpp \
@@ -17975,6 +17976,8 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ForwardEulerIntegrator.hpp:
 
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ClothNode.hpp:
+
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stddef.h:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_uint4x3_sized.hpp:
@@ -18451,12 +18454,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/forward.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/MeshLoader.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/shift_left.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/declval.h:
@@ -18612,6 +18609,12 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/exception:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/MeshLoader.cpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/unary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/hash.h:
 
