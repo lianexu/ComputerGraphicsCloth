@@ -69,22 +69,6 @@ public:
                 sphere_nodes_[sphere_ix]->GetTransform().SetPosition(node_position);
                 positions_vec.push_back(node_position); //POSITION
                 velocities_vec.push_back(glm::vec3(0,0,0)); //VELOCITY    
-
-                // int sphere_left = -1;
-                // int sphere_up = -1;
-
-                // if (i == 0 && j == 0){
-                //     // no changes
-                // } else if (i == 0) {
-                //     sphere_left = IndexOf(0, j-1);
-                // } else if (j == 0){
-                //     sphere_up = IndexOf(i-1, 0);
-                // } else {
-                //     sphere_left = IndexOf(i, j-1);
-                //     sphere_up = IndexOf(i-1, j);
-                // }
-
-                // system_.AddSphere(sphere_left, sphere_up, 0.005, 1, 0.2, 1, 0.2); //int sphere1, int sphere2, float mass, float spring_length1k, float spring_constant1k, float spring_lengthk2, float spring_constantk2
                 system_.AddSphere(0.005);
 
 
@@ -101,6 +85,10 @@ public:
                 int this_sphere = IndexOf(i,j);
                 int sphere_right = IndexOf(i, j+1);
                 int sphere_down = IndexOf(i+1, j);
+                int sphere_down_right = IndexOf(i+1, j+1);
+                int sphere_down_left = IndexOf(i+1, j-1);
+
+                // Structural Springs
                 if (i == cloth_dimensions_-1 && j == cloth_dimensions_ -1){
                     // do nothing
                 }else if (i == cloth_dimensions_-1){
@@ -110,6 +98,33 @@ public:
                 }else{
                     system_.AddSpring(this_sphere, sphere_right, 1, 0.2);
                     system_.AddSpring(this_sphere, sphere_down, 1, 0.2);
+                }
+
+                // Shear Springs
+                if (i == cloth_dimensions_-1){
+                    // do nothing
+                }else if (j == 0){
+                    system_.AddSpring(this_sphere, sphere_down_right, 1, 0.2);
+                }else if (j == cloth_dimensions_-1){
+                    system_.AddSpring(this_sphere, sphere_down_left, 1, 0.2);
+                }else{
+                    system_.AddSpring(this_sphere, sphere_down_right, 1, 0.2);
+                    system_.AddSpring(this_sphere, sphere_down_left, 1, 0.2);
+                }
+
+                // Flex Springs
+                int sphere_2right = IndexOf(i, j+2);
+                int sphere_2down = IndexOf(i+2, j);
+
+                if (i >= cloth_dimensions_-2 && j >= cloth_dimensions_ -2){
+                    // do nothing
+                }else if (j >= cloth_dimensions_ -2){
+                    system_.AddSpring(this_sphere, sphere_2down, 2, 0.2);
+                }else if (i >= cloth_dimensions_-2){
+                    system_.AddSpring(this_sphere, sphere_2right, 2, 0.2);
+                }else{
+                    system_.AddSpring(this_sphere, sphere_2right, 2, 0.2);
+                    system_.AddSpring(this_sphere, sphere_2down, 2, 0.2);
                 }
             }
         }

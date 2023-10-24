@@ -51,12 +51,6 @@ public:
 
         auto sphere_node0 = make_unique<SceneNode>(); 
         sphere_node0->GetTransform().SetPosition(glm::vec3(0,0,0));
-        // system_.AddSphere(-1, -1, 0, 0, 0, 0, 0); //int sphere1, int sphere2, float mass, float spring_length1k, float spring_constant1k, float spring_lengthk2, float spring_constantk2
-
-        // std::vector<int> spheres = {-1};
-        // std::vector<float> spring_lengths = {0.5};
-        // std::vector<float> spring_constants = {0.2};
-        // system_.AddSphere(spheres, 0.005, spring_lengths, spring_constants);
         system_.AddSphere(0);
 
         positions_vec.push_back(glm::vec3(0,0,0)); //POSITION
@@ -72,13 +66,6 @@ public:
         velocities_vec.push_back(glm::vec3(0,-0.2,0)); //VELOCITY
         system_.AddSphere(0.005);
         system_.AddSpring(0, 1, 0.5, 0.2);
-                // system_.AddSphere(0, -1, 0.005, 0.5, 0.2, 0, 0);
-
-        // spheres = {0};
-        // spring_lengths = {0.5};
-        // spring_constants = {0.2};
-        // system_.AddSphere(spheres, 0.005, spring_lengths, spring_constants);
-
         sphere_node1->CreateComponent<ShadingComponent>(shader);
         sphere_node1->CreateComponent<RenderingComponent>(sphere_mesh);
         sphere_nodes_.push_back(sphere_node1.get());
@@ -92,12 +79,6 @@ public:
         velocities_vec.push_back(glm::vec3(0,0.2,0)); //VELOCITY
         system_.AddSphere(0.005);
         system_.AddSpring(1, 2, 0.5, 0.2);
-        // system_.AddSphere(1, -1, 0.005, 0.5, 0.2, 0, 0);
-        // spheres = {1};
-        // spring_lengths = {0.5};
-        // spring_constants = {0.2};
-        // system_.AddSphere(spheres, 0.005, spring_lengths, spring_constants);
-
         sphere_node2->CreateComponent<ShadingComponent>(shader);
         sphere_node2->CreateComponent<RenderingComponent>(sphere_mesh);
         sphere_nodes_.push_back(sphere_node2.get());
@@ -109,13 +90,6 @@ public:
         velocities_vec.push_back(glm::vec3(0,1,0)); //VELOCITY
         system_.AddSphere(0.005);
         system_.AddSpring(2, 3, 0.5, 0.2);
-
-        // spheres = {2};
-        // spring_lengths = {0.5};
-        // spring_constants = {0.2};
-        // system_.AddSphere(spheres, 0.005, spring_lengths, spring_constants); //std::vector<int> spheres, float mass, std::vector<float> spring_lengths, std::vector<float> spring_constants
-        
-        // system_.AddSphere(2, -1, 0.005, 0.5, 0.2, 0, 0);
         sphere_node3->CreateComponent<ShadingComponent>(shader);
         sphere_node3->CreateComponent<RenderingComponent>(sphere_mesh);
         sphere_nodes_.push_back(sphere_node3.get());
