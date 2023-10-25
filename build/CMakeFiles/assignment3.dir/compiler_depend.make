@@ -24,6 +24,14 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: /Use
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/alloca.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/arch.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/all_of.h \
@@ -303,18 +311,11 @@ CMakeFiles/assignment3.dir/assignment_code/assignment3/SimulationApp.cpp.o: /Use
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/i386/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/arm/_structs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/machine/_structs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/_mcontext.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/_types.h \
@@ -17411,15 +17412,7 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/Image.hpp:
 
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/stb/stb_image_write.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/stb/stb_image.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/Image.cpp:
-
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/Application.cpp:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/imgui_widgets.cpp:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/imstb_truetype.h:
 
@@ -17439,10 +17432,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/examples/imgui_impl_glfw.cpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/arm/OSByteOrder.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/types.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/shaders/ShaderProgram.hpp:
@@ -17452,10 +17441,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/lights/PointLight.hpp:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/gl_wrapper/VertexArray.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_limits.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/external.hpp:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/glm.hpp:
 
@@ -17550,10 +17535,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/type_quat.inl:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/type_mat4x4.inl:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/arm/_structs.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/type_mat4x3.inl:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/type_mat3x4.inl:
 
@@ -17871,6 +17852,8 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/mat4x2.hpp:
 
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/imgui_widgets.cpp:
+
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/SimulationApp.cpp:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtx/dual_quaternion.inl:
@@ -17969,17 +17952,17 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/RKIntegrator.hpp:
 
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/quaternion.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_uint2x2_sized.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/secure/_strings.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/typeinfo:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ParticleSystemBase.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_mcontext.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/IntegratorFactory.hpp:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_float2x3.hpp:
 
@@ -18045,12 +18028,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_stdio.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/__decay_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/endian.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/__wctype.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/secure/_string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ostream:
@@ -18106,6 +18083,8 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_short.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int8_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/in_place.h:
 
@@ -18225,15 +18204,15 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/atomic:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_t.h:
-
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_double1_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/atomic:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
@@ -18283,43 +18262,7 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/_mcontext.h:
 
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/gl_wrapper/VertexBuffer.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_int2_sized.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/i386/_structs.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/i386/_OSByteOrder.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/_OSByteOrder.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/quaternion.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_uint2x2_sized.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/endian.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_mcontext.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_uint2_sized.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/min.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/float.h:
 
@@ -18346,10 +18289,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_bool1_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdlib.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/sample.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdexcept:
 
@@ -18385,6 +18324,10 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/memory:
 
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/IntegratorFactory.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iterator:
@@ -18395,11 +18338,21 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/locale:
+
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_uint2x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/istream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/deque:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/gl_wrapper/VertexBuffer.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iosfwd:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
 
@@ -18449,8 +18402,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/climits:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/signal.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cfloat:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_bool2.hpp:
@@ -18489,6 +18440,8 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_double3_precision.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/sample.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/swap.h:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glad/include/KHR/khrplatform.h:
@@ -18513,8 +18466,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__tuple:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_sigaltstack.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__threading_support:
@@ -18533,13 +18484,19 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/types.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/endian.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_uint4x4_sized.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_safety.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/matrix_access.inl:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
@@ -18581,10 +18538,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/tuple:
 
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/matrix_access.inl:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/float.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/common.hpp:
@@ -18624,16 +18577,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/quaternion_double_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/endian.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_uint4x4_sized.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_traits.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_double3x4_precision.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
@@ -18703,6 +18646,8 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_union.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_mcontext.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__functional/binary_negate.h:
@@ -18731,9 +18676,13 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/i386/limits.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/algorithm:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/stb/stb_image.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__errc:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_int2_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
@@ -18775,19 +18724,7 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_int4x3.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctype_t.h:
-
-/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdbool.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
@@ -18797,13 +18734,15 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/move.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_time.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_ctermid.h:
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtx/component_wise.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_def.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/imgui.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h:
 
@@ -18819,21 +18758,21 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
+/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include/stdbool.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_ctermid.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/partition.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/iterator_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/_time.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtx/component_wise.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_def.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_locale.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/imgui.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
 
@@ -18859,6 +18798,12 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_types.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/endian.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/xlocale/__wctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/__decay_copy.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/move_backward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
@@ -18875,10 +18820,6 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/reverse.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_u_int.h:
-
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/type_vec3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/for_each.h:
@@ -18890,6 +18831,12 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_relational.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_int64_t.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_int4x3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_wctype_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/func_exponential.inl:
 
@@ -18909,6 +18856,10 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fd_zero.h:
 
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_uint2_sized.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/min.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/wctype.h:
@@ -18923,6 +18874,8 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_ssize_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/libkern/arm/OSByteOrder.h:
+
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_float4x4_precision.hpp:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_double2x3_precision.hpp:
@@ -18933,35 +18886,39 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/errno.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_if.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glad/src/glad.c:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ParticleState.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/imgui.h:
-
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_common.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_uint64_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/rel_ops.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stddef.h:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/constants.inl:
 
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_int2x3_sized.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bit_reference:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__utility/rel_ops.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_uint64_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/comp.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/type_mat4x3.inl:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/mach/arm/_structs.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/vec1.hpp:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/vec2.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__function_like.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_common.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__debug:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/stb/stb_image_write.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/shift_right.h:
 
@@ -18973,21 +18930,25 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream:
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_int2x3_sized.hpp:
 
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtc/vec1.hpp:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/insert_iterator.h:
 
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/vec2.hpp:
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_double3x4_precision.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__function_like.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/pointer_safety.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__tuple:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/external.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/_limits.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/alloca.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/reverse.h:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_float3x2.hpp:
 
@@ -18996,6 +18957,8 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/components/RenderingComponent.hpp:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_bool4.hpp:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/gloo/Image.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_key_t.h:
 
@@ -19007,11 +18970,21 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_xlocale.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/remove.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
+
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/vector_int4_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/replace.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__hash_table:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/find_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_intmax_t.h:
 
@@ -19021,19 +18994,23 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/scalar_integer.inl:
 
-/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/compute_common.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/search_n.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/arm/types.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/detail/compute_common.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/runetype.h:
 
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/gtx/dual_quaternion.hpp:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/imgui/imgui.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/machine/limits.h:
 
@@ -19046,3 +19023,9 @@ CMakeFiles/assignment3.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.440
 /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glm-0.9.9.8/glm/ext/matrix_float3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__memory/allocator.h:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/external/src/glad/src/glad.c:
+
+/Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment3/assignment_code/assignment3/ParticleState.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__algorithm/fill.h:

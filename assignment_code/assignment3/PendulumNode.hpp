@@ -17,6 +17,7 @@
 #include "gloo/components/RenderingComponent.hpp"
 #include "gloo/components/ShadingComponent.hpp"
 #include "gloo/components/MaterialComponent.hpp"
+#include "gloo/Material.hpp"
 #include "gloo/shaders/PhongShader.hpp"
 #include "gloo/shaders/SimpleShader.hpp"
 #include "gloo/InputManager.hpp"
@@ -48,26 +49,32 @@ public:
 
         std::shared_ptr<VertexObject> sphere_mesh = PrimitiveFactory::CreateSphere(0.05f, 20, 20);
         std::shared_ptr<ShaderProgram> shader = std::make_shared<PhongShader>();
+        auto sphere_color = glm::vec3(1.f, 0.f, 1.f); // purple
+        auto sphere_material = std::make_shared<Material>(sphere_color, sphere_color, sphere_color, 0);
+
+
 
         auto sphere_node0 = make_unique<SceneNode>(); 
         sphere_node0->GetTransform().SetPosition(glm::vec3(0,0,0));
         system_.AddSphere(0);
 
-        positions_vec.push_back(glm::vec3(0,0,0)); //POSITION
+        positions_vec.push_back(glm::vec3(-5,0,0)); //POSITION
         velocities_vec.push_back(glm::vec3(0,0,0)); //VELOCITY
         sphere_node0->CreateComponent<ShadingComponent>(shader);
         sphere_node0->CreateComponent<RenderingComponent>(sphere_mesh);
+        sphere_node0->CreateComponent<MaterialComponent>(sphere_material);
         sphere_nodes_.push_back(sphere_node0.get());
         AddChild(std::move(sphere_node0));
 
         auto sphere_node1 = make_unique<SceneNode>(); 
         sphere_node1->GetTransform().SetPosition(glm::vec3(0,-1,0));
-        positions_vec.push_back(glm::vec3(0,-1,0)); // POSITION
+        positions_vec.push_back(glm::vec3(-5,-1,0)); // POSITION
         velocities_vec.push_back(glm::vec3(0,-0.2,0)); //VELOCITY
         system_.AddSphere(0.005);
         system_.AddSpring(0, 1, 0.5, 0.2);
         sphere_node1->CreateComponent<ShadingComponent>(shader);
         sphere_node1->CreateComponent<RenderingComponent>(sphere_mesh);
+        sphere_node1->CreateComponent<MaterialComponent>(sphere_material);
         sphere_nodes_.push_back(sphere_node1.get());
         AddChild(std::move(sphere_node1));
 
@@ -75,23 +82,25 @@ public:
 
         auto sphere_node2 = make_unique<SceneNode>(); 
         sphere_node2->GetTransform().SetPosition(glm::vec3(2,-2,0));
-        positions_vec.push_back(glm::vec3(2,-2,0)); // POSITION
+        positions_vec.push_back(glm::vec3(-5,-2,0)); // POSITION
         velocities_vec.push_back(glm::vec3(0,0.2,0)); //VELOCITY
         system_.AddSphere(0.005);
         system_.AddSpring(1, 2, 0.5, 0.2);
         sphere_node2->CreateComponent<ShadingComponent>(shader);
         sphere_node2->CreateComponent<RenderingComponent>(sphere_mesh);
+        sphere_node2->CreateComponent<MaterialComponent>(sphere_material);
         sphere_nodes_.push_back(sphere_node2.get());
         AddChild(std::move(sphere_node2));
 
         auto sphere_node3 = make_unique<SceneNode>(); 
         sphere_node3->GetTransform().SetPosition(glm::vec3(3,2,0));
-        positions_vec.push_back(glm::vec3(3,2,0)); // POSITION
+        positions_vec.push_back(glm::vec3(-6,2,0)); // POSITION
         velocities_vec.push_back(glm::vec3(0,1,0)); //VELOCITY
         system_.AddSphere(0.005);
         system_.AddSpring(2, 3, 0.5, 0.2);
         sphere_node3->CreateComponent<ShadingComponent>(shader);
         sphere_node3->CreateComponent<RenderingComponent>(sphere_mesh);
+        sphere_node3->CreateComponent<MaterialComponent>(sphere_material);
         sphere_nodes_.push_back(sphere_node3.get());
         AddChild(std::move(sphere_node3));
 
