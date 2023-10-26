@@ -47,7 +47,7 @@ public:
         std::vector<glm::vec3> positions_vec;
         std::vector<glm::vec3> velocities_vec;
 
-        std::shared_ptr<VertexObject> sphere_mesh = PrimitiveFactory::CreateSphere(0.05f, 20, 20);
+        std::shared_ptr<VertexObject> sphere_mesh = PrimitiveFactory::CreateSphere(0.25f, 20, 20);
         std::shared_ptr<ShaderProgram> shader = std::make_shared<PhongShader>();
         auto sphere_color = glm::vec3(1.f, 0.f, 1.f); // purple
         auto sphere_material = std::make_shared<Material>(sphere_color, sphere_color, sphere_color, 0);

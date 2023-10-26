@@ -25,6 +25,7 @@
 #include "ParticleState.hpp"
 #include "ParticleSystemBase.hpp"
 
+
 #include <fstream>
 
 #include <string>
@@ -76,10 +77,20 @@ class PendulumSystem : public ParticleSystemBase {
         fixed_spheres_[sphere_index] = 1;
     }
 
+    void SwitchWind(){
+        // Turns wind on and off
+        if (wind_is_on_){
+            wind_is_on_ = false;
+        }else{
+            wind_is_on_ = true;
+        }
+        std::cout << "wind: " << wind_is_on_ << std::endl;
+    }
+
     ParticleState ComputeTimeDerivative(const ParticleState& state, float time) const{
         // std::cout << "time: " << time << std::endl;
         ParticleState derivative;
-
+        std::vector<glm::vec3> curr_positions = state.positions;
         std::vector<glm::vec3> velocities = state.velocities;
         std::vector<glm::vec3> accelerations;
 
@@ -116,12 +127,21 @@ class PendulumSystem : public ParticleSystemBase {
                 }
              }
          }
+        int random_wind_y = -(rand() % 10 + 1); // random number from -1 to -10
+        float random_wind_strength_z = -(float)rand()/(RAND_MAX + 1.0); //random number from 0 to -1
+        float random_wind_strength_y = -(float)rand()/(RAND_MAX + 1.0); //random number from 0 to -1
+        float random_wind_strength_x = -(float)rand()/(RAND_MAX + 1.0); //random number from 0 to -1
+        glm::vec3 wind_strength(random_wind_strength_x,random_wind_strength_y,random_wind_strength_z);
 
          for(int i = 0; i < velocities.size(); i++){
             if (sphere_masses_[i] == 0 || fixed_spheres_[i] == 1){
                 accelerations.push_back(glm::vec3(0,0,0));
             }else{
-            accelerations.push_back(1/sphere_masses_[i] * (gravity_forces[i] + drag_forces[i] + spring_forces[i]));
+                if (curr_positions[i][1] > random_wind_y && wind_is_on_){ // if the y-coordinate of the node is less than random_wind_y, it is affected by the wind
+                    accelerations.push_back(1/sphere_masses_[i] * (gravity_forces[i] + drag_forces[i] + spring_forces[i] + wind_strength));
+                }else{
+                    accelerations.push_back(1/sphere_masses_[i] * (gravity_forces[i] + drag_forces[i] + spring_forces[i]));
+                }
             }
          }
 
@@ -137,6 +157,7 @@ class PendulumSystem : public ParticleSystemBase {
         std::vector<float> sphere_masses_;
         std::vector<int> fixed_spheres_;
         float drag_constant_ = 0.005;
+        int wind_is_on_ = true;
 };
 }  // namespace GLOO
 #endif

@@ -216,11 +216,29 @@ public:
     }
 
     void Update(double delta_time) override{ 
+        //Reset System
+        static bool prev_releasedR = true;
         if (InputManager::GetInstance().IsKeyPressed('R')) {
+            if (prev_releasedR) {
             state_.positions = original_positions_;
             state_.velocities = original_velocities_;
+            }
+            prev_releasedR = false;
+        } else if (InputManager::GetInstance().IsKeyReleased('R')) {
+            prev_releasedR = true;
         }
 
+
+        //Toggle Wind
+        static bool prev_releasedW = true;
+        if (InputManager::GetInstance().IsKeyPressed('W')) {
+            if (prev_releasedW) {
+            system_.SwitchWind();
+            }
+            prev_releasedW = false;
+        } else if (InputManager::GetInstance().IsKeyReleased('W')) {
+            prev_releasedW = true;
+        }
 
         auto cloth_positions = make_unique<PositionArray>();
         std::vector<glm::vec3> positions;
